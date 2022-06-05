@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Import;
  * @author Jasbir Singh
  */
 @Configuration
-@Import(value = {CoreConfiguration.class, MySQLPersistenceConfiguration.class})
+@Import(value = {CoreConfiguration.class, PostgresPersistenceConfiguration.class})
 @ComponentScan(basePackages = "io.github.jas34.scheduledwf")
 public class ScheduledWfModuleConfiguration {
 
