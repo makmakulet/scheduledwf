@@ -21,7 +21,7 @@ import org.springframework.context.annotation.Import;
  * @since v2.0.0
  * @author Jasbir Singh
  */
-@Configuration
+@Configuration("PostgresPersistenceConfiguration")
 @Import(DataSourceAutoConfiguration.class)
 @ConditionalOnProperty(name = "conductor.db.type", havingValue = "postgres")
 public class PostgresPersistenceConfiguration {
