@@ -25,7 +25,7 @@ import io.swagger.v3.oas.annotations.Operation;
 // @Api(value = "/scheduler", produces = MediaType.APPLICATION_JSON, consumes =
 // MediaType.APPLICATION_JSON,
 // tags = "Scheduler Management")
-@RestController
+@RestController("KSWfSchedulerCustomer")
 @RequestMapping(value = "/api/scheduler")
 public class SchedulerResource {
 

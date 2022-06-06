@@ -24,7 +24,7 @@ import io.swagger.v3.oas.annotations.Parameter;
  */
 // @Api(value = "/scheduling/metadata", produces = MediaType.APPLICATION_JSON,
 // consumes = MediaType.APPLICATION_JSON, tags = "Scheduled Worfkflow Metadata Management")
-@RestController
+@RestController("KSWfSchedulerCustomer")
 @RequestMapping(value = "/api/scheduling/metadata")
 public class ScheduleWfResource {
 
