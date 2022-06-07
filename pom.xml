@@ -61,7 +61,7 @@
 		<wisp-version>2.2.0</wisp-version>
 		<cron-utils-version>8.0.0</cron-utils-version>
 		<redisson-version>3.11.4</redisson-version>
-		<spring-boot-version>2.3.1.RELEASE</spring-boot-version>
+		<spring-boot-version>2.6.7</spring-boot-version>
 		<guava-version>30.0-jre</guava-version>
 		<aws-jdk-version>1.11.86</aws-jdk-version>
 		<open-api-verion>1.4.8</open-api-verion>
@@ -250,11 +250,9 @@
 			<plugin>
 				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
-				<version>0.8.2</version>
+				<version>0.8.4</version>
 				<configuration>
 					<excludes>
-						<exclude>**/MySQLPersistenceModule.class</exclude>
-						<exclude>**/dao/mysql/**</exclude>
 						<exclude>**/config/**</exclude>
 						<exclude>**/metadata/**</exclude>
 						<exclude>**/run/**</exclude>
